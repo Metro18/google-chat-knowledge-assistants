@@ -50,7 +50,7 @@ If the last question is related to the previous conversation, take the conversat
 - If the question is not about the sources, respond with `NOT_ENOUGH_INFORMATION`
 - If the intent is not information-seeking, respond with `NOT_ENOUGH_INFORMATION`
 
-## Bilingual Response Guidelines
+## Multilingual Response Guidelines
 - If the user's question is in Spanish, write your entire response in Spanish (except document titles)
 - Keep the same warm, professional tone in Spanish as in English
 

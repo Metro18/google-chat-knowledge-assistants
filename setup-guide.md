@@ -95,5 +95,5 @@ In the Instructions prompt, include a routing table that maps query types to too
 Use the Dialogflow CX simulator to test queries before going live:
 - Content questions → confirm the DOCS tool fires and returns cited answers
 - File listing questions → confirm the INDEX tool fires and returns links
-- Bilingual queries → confirm language detection works
+- Multilingual queries → confirm language detection works
 - Negative cases → confirm graceful "not found" responses

@@ -16,7 +16,7 @@
 | **Data Store** | Dual data store per tool (see below) |
 | **Location** | `us-central1` |
 | **Model** | `gemini-2.5-flash` |
-| **Language** | Bilingual (English/Spanish) |
+| **Language** | Multilingual (English/Spanish) |
 
 ## Tool Design
 
@@ -68,7 +68,7 @@ gs://[your-bucket]/
 
 - **Policy/procedure answers**: 200–500 words with inline citations
 - **File link responses**: include direct GCS download URLs
-- **Language**: respond in user's language; technical terms get bilingual parenthetical explanations
+- **Language**: respond in user's language; technical terms get multilingual parenthetical explanations
 - **Sensitive topics**: escalate to appropriate human contact
 - **Character limit**: Google Chat has a 4,096 character limit; responses must stay under 3,800
 

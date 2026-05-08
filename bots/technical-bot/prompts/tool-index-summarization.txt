@@ -28,7 +28,7 @@ https://storage.cloud.google.com/[bucket]/path/filename.ext
 - If no matching entries are found, respond with `NOT_ENOUGH_INFORMATION`.
 - If the question is a technical content question, respond with `NOT_ENOUGH_INFORMATION`.
 
-## Bilingual Response Guidelines
+## Multilingual Response Guidelines
 - If the user's question is in Spanish, write your response introduction in Spanish. Document names, vendor names, and URLs remain in their original form.
 
 # Sources

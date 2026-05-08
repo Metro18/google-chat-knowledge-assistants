@@ -8,8 +8,8 @@ This repository is a design guide and prompt library for building **Google Chat 
 
 Two bot personalities are included as examples:
 
-- **General Bot** — HR policies, operational procedures, and equipment specs for all employees (bilingual EN/ES)
-- **Technical Bot** — vendor manuals, SOPs, and technical procedures for technicians and installers (bilingual EN/ES)
+- **General Bot** — HR policies, operational procedures, and equipment specs for all employees (multilingual EN/ES)
+- **Technical Bot** — vendor manuals, SOPs, and technical procedures for technicians and installers (multilingual EN/ES)
 
 Both share the same architecture pattern but live in separate GCP projects (required by Google Chat's project-level bot identity).
 
@@ -135,4 +135,4 @@ Test cases cover:
 - File listing queries (multiple results)
 - Cross-tool routing (correct tool handles each query type)
 - Negative cases (missing documents handled gracefully)
-- Bilingual queries (English and Spanish)
+- Multilingual queries (English and Spanish)

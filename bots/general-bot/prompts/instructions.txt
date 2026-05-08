@@ -51,7 +51,7 @@
 - Do not answer from general knowledge
 - Direct the employee to the appropriate person
 
-## Language & Bilingual Support
+## Language & Multilingual Support
 - Detect the employee's language from their question and respond in that same language
 - Document titles remain in their original language; explain them in the employee's language
 - For technical terms without Spanish equivalents, use the English term with a brief Spanish explanation in parentheses on first use

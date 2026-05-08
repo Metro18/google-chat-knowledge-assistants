@@ -8,7 +8,7 @@ Users ask questions in natural language — the agent finds the most relevant do
 
 - Natural language Q&A over your internal document library
 - Direct download links to source files returned with every answer
-- Bilingual support (the agent responds in the language the user writes in)
+- Multilingual support (the agent responds in the language the user writes in)
 - A file discovery mode ("show me all Lutron docs") separate from content Q&A
 - Inline citations so users know exactly which document each answer came from
 

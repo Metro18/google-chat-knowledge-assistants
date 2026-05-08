@@ -16,7 +16,7 @@
 | **Data Store** | Dual data store (see below) |
 | **Location** | `us-central1` |
 | **Model** | `gemini-2.5-flash` |
-| **Language** | Bilingual (English/Spanish) |
+| **Language** | Multilingual (English/Spanish) |
 
 ## Tool Design
 
