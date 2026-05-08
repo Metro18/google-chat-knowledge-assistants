@@ -71,9 +71,18 @@ Supports PDF, DOCX, XLSX, XLS, DOC, and image files. Includes resume logic and c
 
 **Google Cloud SDK (`gcloud`)** — the command-line tool for interacting with Google Cloud. If you don't have it installed:
 
-1. Download from https://cloud.google.com/sdk/docs/install (macOS, Linux, Windows)
-2. Run `gcloud init` to authenticate and select your project
-3. Verify with `gcloud --version`
+**macOS (Homebrew — recommended):**
+```bash
+brew install --cask google-cloud-sdk
+```
+
+**Other platforms (macOS, Linux, Windows):** Download the installer from https://cloud.google.com/sdk/docs/install
+
+After installing, initialize and verify:
+```bash
+gcloud init       # authenticate and select your project
+gcloud --version  # confirm it's installed
+```
 
 **Python 3.9+** with pip.
 
