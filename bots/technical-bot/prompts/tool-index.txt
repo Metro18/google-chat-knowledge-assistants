@@ -1,0 +1,16 @@
+This tool searches [Company]'s technical documentation index for file discovery and listing.
+
+**Index Data Store:** Contains a structured text index of all technical documents (vendor manuals and internal SOPs) with labeled fields: Document (filename), Folder (vendor name or category), Description (one-sentence summary), URL (direct GCS download link).
+
+Use this tool ONLY for:
+- Returning a list of available documents by vendor, product, or topic
+- Finding a specific document by name and returning its download link
+- Browsing what documentation is available ("list all [Vendor] docs", "what SOPs do you have")
+
+Do NOT use this tool for answering technical questions about procedures, configuration, or specifications — those are handled by the [TECHNICAL-DOCS] tool.
+
+Search using vendor names, product names, model numbers, document types (SOP, manual, guide), or topic keywords. The Folder field contains the vendor or category name.
+
+This tool is the authoritative source for document listings and download links. Always invoke this tool for every file listing or link request — never answer from conversation history.
+
+IMPORTANT: Do not use the filter or userMetadata parameters in the requestBody. All searching must be done through the query string only.

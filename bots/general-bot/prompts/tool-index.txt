@@ -1,0 +1,16 @@
+This tool searches [Company]'s [Domain] document index for file discovery and listing.
+
+**Index Data Store:** Contains a structured text index of all [domain] documents with labeled fields per entry: Document (filename), Folder (organizational category), Description (one-sentence summary), URL (direct GCS download link).
+
+Use this tool ONLY for:
+- Returning a list of available documents by topic or category
+- Finding a specific document by name and returning its download link
+- Browsing what documents are available ("what files do you have about X?", "list all Y policies")
+
+Do NOT use this tool for answering questions about policy content or procedures — those are handled by the [DOMAIN]-DOCS tool.
+
+Search using topic keywords, document names, or category/folder names.
+
+This tool is the authoritative source for document listings and download links. Always invoke this tool for every file listing or link request — never answer from conversation history.
+
+IMPORTANT: Do not use the filter or userMetadata parameters in the requestBody. All searching must be done through the query string only.

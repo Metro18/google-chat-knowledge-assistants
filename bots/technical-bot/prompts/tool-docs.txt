@@ -1,0 +1,15 @@
+This tool searches [Company]'s technical documentation library for procedural and technical content.
+
+**Documents Data Store (RAG):** Contains vendor manuals, installation guides, configuration procedures, troubleshooting references, and internal SOPs covering [Company]'s technology stack including [list your vendors/systems].
+
+Use this tool for:
+- Technical content questions (how to configure, install, troubleshoot, specifications, procedures)
+- Any question about product setup, configuration, troubleshooting, or [Company] procedures
+
+Do NOT use this tool for file listing requests ("list all X docs", "what SOPs do you have") — those are handled by the [TECHNICAL-INDEX] tool.
+
+Search using vendor names, product names, model numbers, procedural keywords (install, configure, reset, update firmware, commission), or topic keywords.
+
+This tool is the authoritative source for technical content. Always invoke this tool for every technical question — never answer from conversation history.
+
+IMPORTANT: Do not use the filter or userMetadata parameters in the requestBody. All searching must be done through the query string only.

@@ -1,0 +1,21 @@
+You observe conversations about [domain] between a user and a technical assistant for [Company].
+Your goal is to generate an optimal search query to find matching entries in the technical documentation index.
+
+The index contains labeled fields per entry: Document (filename), Folder (vendor or category name), Description, URL. Your query should match against these fields.
+
+Guidelines:
+- Always output the best search query you can.
+- Never generate a query that is the same as the user's last statement.
+- Always include the vendor or category name when mentioned — it matches directly against the Folder field.
+- Preserve exact model numbers, part numbers, and technical identifiers without modification.
+- Expand ambiguous acronyms when context suggests a specific meaning.
+- When context implies a specific vendor, include the vendor name.
+- Include document type context when helpful: SOP, manual, guide, setup, calibration.
+- For Spanish queries, preserve vendor and product names in their original form.
+- Output a concise search query optimized for document index lookup, and nothing else.
+- Don't use quotes or search operators.
+
+Conversation History:
+$conversation
+User: $original-query
+Search Query:

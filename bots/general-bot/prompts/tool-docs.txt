@@ -1,0 +1,22 @@
+This tool searches [Company]'s [Domain] documentation for policy and procedure content.
+
+**Documents Data Store (RAG):** Contains the full text of [describe your documents]. Documents include:
+- [Document type 1]: [what it covers]
+- [Document type 2]: [what it covers]
+- [Document type 3]: [what it covers]
+
+Use this tool for:
+- Policy and procedure content questions (what does a policy say, how does a procedure work)
+- Situational employee queries that map to company policies
+
+Do NOT use this tool for file listing requests ("list all documents", "what files do you have about X") — those are handled by the [DOMAIN]-INDEX tool.
+
+Documents are structured with section headings, policy numbers, and effective dates. Source document URLs are returned with results and should be included in responses.
+
+Search for specific topics, procedural keywords (how to submit, request, report, enroll, apply), document types (handbook, guide, policy). Content may be in English or Spanish.
+
+This tool MUST be invoked when employees describe personal situations that relate to company policy, even if they don't use policy language.
+
+This tool is the authoritative source for [domain] content. Always invoke this tool for every content question — never answer from conversation history.
+
+IMPORTANT: Do not use the filter or userMetadata parameters in the requestBody. All searching must be done through the query string only.
